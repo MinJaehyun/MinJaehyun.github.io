@@ -1,17 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- 인사 기능 -->
+  <div v-if="방문창 == true">
+    <HelloAll />
+  </div>
+
+  <!-- portfolio -->
+  <mjhPortfolio />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import mjhPortfolio from "./components/Card.vue";
+import HelloAll from "./components/HelloAll.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  data() {
+    return {
+      방문창: true,
+    };
+  },
+  components: { mjhPortfolio, HelloAll },
+  mounted() {
+    setTimeout(() => {
+      this.방문창 = false
+    }, 5000)
+  },
+};
 </script>
 
 <style>
@@ -21,6 +35,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
