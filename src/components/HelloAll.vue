@@ -11,10 +11,5 @@ export default {
 </script>
 
 <style>
-.hello {
-  background-color: rgb(101, 150, 96);
-  color: #fff;
-  padding: 10px;
-  margin: 10px;
-}
+@import '../assets/css/helloall.css';
 </style>

@@ -1,6 +1,6 @@
 <template>
   <!-- 인사 기능 -->
-  <div v-if="방문창 == true">
+  <div v-if="방문창 == true" >
     <HelloAll />
   </div>
 
