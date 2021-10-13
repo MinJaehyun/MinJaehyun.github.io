@@ -3,23 +3,35 @@
   <div v-if="방문창 == true" >
     <HelloAll />
   </div>
+  
+  <!-- About -->
+  <About />
 
   <!-- portfolio -->
-  <mjhPortfolio />
+  <div class="wrapper">
+    <h1 style="text-align: left">Personal Activities</h1>
+    <div class="cols">
+      <Card :post="post[i]" v-for="a,i in post" :key="i" />
+    </div>
+  </div>
+
 </template>
 
 <script>
-import mjhPortfolio from "./components/Card.vue";
-import HelloAll from "./components/HelloAll.vue";
+import Card from "./components/Card.vue"
+import HelloAll from "./components/HelloAll.vue"
+import About from "./components/About.vue"
+import post from "./assets/data/post"
 
 export default {
   name: "App",
   data() {
     return {
       방문창: true,
+      post: post,
     };
   },
-  components: { mjhPortfolio, HelloAll },
+  components: { Card, HelloAll, About },
   mounted() {
     setTimeout(() => {
       this.방문창 = false
