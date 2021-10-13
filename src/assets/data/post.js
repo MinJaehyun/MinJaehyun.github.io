@@ -48,7 +48,7 @@ export default [
     back: {
       title: "NojeJS, Express",
       content: "팀 프로젝트(2주)",
-      url: "https://github.com/MinJaehyun/chaegjango_server",
+      url: "https://github.com/MinJaehyun/ChaegJango-server",
     }
   },
 ];
