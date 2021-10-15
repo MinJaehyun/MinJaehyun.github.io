@@ -3,11 +3,11 @@ export default [
     id: 0,
     front: {
       title: "Deja-Vue",
-      date: "2021.10 ~ 12",
+      date: "2021.10 ~ 진행 중",
       url: "https://unsplash.it/500/500/",
     },
     back: {
-      title: "Flask or DRF + Vue",
+      title: "Vue + Django",
       content: "개인 프로젝트",
       url: "",
     }
@@ -15,8 +15,21 @@ export default [
   {
     id: 1,
     front: {
+      title: "Vuestagram",
+      date: "2021.10 ~ 10",
+      url: "https://unsplash.it/500/500/",
+    },
+    back: {
+      title: "Vuex",
+      content: "사이드 프로젝트",
+      url: "https://minjaehyun.github.io/vuestagram", // TODO: 주소 확인 하기 
+    }
+  },
+  {
+    id: 2,
+    front: {
       title: "Pinterest",
-      date: "2021.07 ~ 08",
+      date: "2021.07 ~ 08(2주)",
       url: "https://unsplash.it/500/501/",
     },
     back: {
@@ -26,7 +39,7 @@ export default [
     }
   },
   {
-    id: 2,
+    id: 3,
     front: {
       title: "BiBa",
       date: "2020.10 ~ 11(4주)",
@@ -39,7 +52,7 @@ export default [
     }
   },
   {
-    id: 3,
+    id: 4,
     front: {
       title: "Changango",
       date: "2020.09 ~ 09(2주)",
@@ -51,4 +64,5 @@ export default [
       url: "https://github.com/MinJaehyun/ChaegJango-server",
     }
   },
+  
 ];

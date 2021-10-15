@@ -1,34 +1,158 @@
 <template>
   <!-- Personal Activities -->
-  <div class="col" ontouchstart="this.classList.toggle('hover');">
-    <div class="container">
-      <div class="front" :style="{ backgroundImage: `url(${post.front.url})` }">
-        <div class="inner">
-          <p>{{ post.front.title }}</p>
-          <span>{{ post.front.date }}</span>
-        </div>
-      </div>
-      <div class="back">
-        <div class="inner">
-          <p>{{ post.back.title }}</p>
-          <p>{{ post.back.content }}</p>
-          <br />
-          <!-- 만약 ??==?? 이면 깃헙 링크 나타내고, 만약 ??==?? 이면 배포 링크 나태내고, 만약 ??==?? 이면 진행 중 나타낸다. -->
-          <!-- 정규표현식 말고, indexOf 로 1,-1 처리하거나 또는 includes 로 true,false 처리하는 방법? TODO -->
-          <!-- <div>
-            <div v-if="??==??">
-
-            </div>
-          </div> -->
-          <a
-            :href="post.back.url"
-            target="_blank"
-            style="text-decoration : none; color: white"
+  <div class="wrapper">
+    <h1 style="text-align: left">Personal Activities</h1>
+    <div class="row">
+      <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div
+            class="front"
+            :style="{
+              backgroundImage: `url(${$store.state.post[0].front.url})`,
+            }"
           >
-            배포 or 깃헙 링크
-          </a>
+            <div class="inner">
+              <p>{{ $store.state.post[0].front.title }}</p>
+              <span>{{ $store.state.post[0].front.date }}</span>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>{{ $store.state.post[0].back.title }}</p>
+              <p>{{ $store.state.post[0].back.content }}</p>
+              <br />
+              <a
+                :href="$store.state.post[0].back.url"
+                target="_blank"
+                style="text-decoration : none; color: white"
+              >
+                배포 or 깃헙 링크
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div
+            class="front"
+            :style="{
+              backgroundImage: `url(${$store.state.post[1].front.url})`,
+            }"
+          >
+            <div class="inner">
+              <p>{{ $store.state.post[1].front.title }}</p>
+              <span>{{ $store.state.post[1].front.date }}</span>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>{{ $store.state.post[1].back.title }}</p>
+              <p>{{ $store.state.post[1].back.content }}</p>
+              <br />
+              <a
+                :href="$store.state.post[1].back.url"
+                target="_blank"
+                style="text-decoration : none; color: white"
+              >
+                배포 or 깃헙 링크
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div
+            class="front"
+            :style="{
+              backgroundImage: `url(${$store.state.post[2].front.url})`,
+            }"
+          >
+            <div class="inner">
+              <p>{{ $store.state.post[2].front.title }}</p>
+              <span>{{ $store.state.post[2].front.date }}</span>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>{{ $store.state.post[2].back.title }}</p>
+              <p>{{ $store.state.post[2].back.content }}</p>
+              <br />
+              <a
+                :href="$store.state.post[2].back.url"
+                target="_blank"
+                style="text-decoration : none; color: white"
+              >
+                배포 or 깃헙 링크
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div
+            class="front"
+            :style="{
+              backgroundImage: `url(${$store.state.post[3].front.url})`,
+            }"
+          >
+            <div class="inner">
+              <p>{{ $store.state.post[3].front.title }}</p>
+              <span>{{ $store.state.post[3].front.date }}</span>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>{{ $store.state.post[3].back.title }}</p>
+              <p>{{ $store.state.post[3].back.content }}</p>
+              <br />
+              <a
+                :href="$store.state.post[3].back.url"
+                target="_blank"
+                style="text-decoration : none; color: white"
+              >
+                배포 or 깃헙 링크
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div
+            class="front"
+            :style="{
+              backgroundImage: `url(${$store.state.post[4].front.url})`,
+            }"
+          >
+            <div class="inner">
+              <p>{{ $store.state.post[4].front.title }}</p>
+              <span>{{ $store.state.post[4].front.date }}</span>
+            </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p>{{ $store.state.post[4].back.title }}</p>
+              <p>{{ $store.state.post[4].back.content }}</p>
+              <br />
+              <a
+                :href="$store.state.post[4].back.url"
+                target="_blank"
+                style="text-decoration : none; color: white"
+              >
+                배포 or 깃헙 링크
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
