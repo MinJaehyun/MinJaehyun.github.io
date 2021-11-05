@@ -1,6 +1,6 @@
 <template>
   <div class="hello" >
-    <h4>방문 해주셔서 감사합니다:)</h4>
+    <h4>방문 해주셔서 감사합니다 :)</h4>
   </div>
 </template>
 
