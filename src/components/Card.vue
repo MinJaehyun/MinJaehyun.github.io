@@ -26,7 +26,7 @@
                 target="_blank"
                 style="text-decoration : none; color: white"
               >
-                <!-- 배포 or 깃헙 링크 -->
+                깃헙 링크
               </a>
             </div>
           </div>
@@ -86,7 +86,7 @@
                 target="_blank"
                 style="text-decoration : none; color: white"
               >
-                배포 링크
+                깃헙 링크
               </a>
             </div>
           </div>
@@ -152,7 +152,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
