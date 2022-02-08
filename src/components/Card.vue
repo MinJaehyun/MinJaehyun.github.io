@@ -2,6 +2,7 @@
   <!-- Personal Activities -->
   <div class="wrapper">
     <h1 style="text-align: left">Personal Activities</h1>
+    <!-- mongoDBProject -->
     <div class="row">
       <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
@@ -26,13 +27,14 @@
                 target="_blank"
                 style="text-decoration : none; color: white"
               >
-                깃헙 링크
+                배포 링크
               </a>
             </div>
           </div>
         </div>
       </div>
 
+      <!--  -->
       <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
           <div
@@ -63,6 +65,7 @@
         </div>
       </div>
 
+      <!--  -->
       <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
           <div
@@ -93,6 +96,7 @@
         </div>
       </div>
 
+      <!--  -->
       <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
           <div
@@ -123,6 +127,7 @@
         </div>
       </div>
 
+      <!-- bookshelf -->
       <div class="col-lg-4 mb-4" ontouchstart="this.classList.toggle('hover');">
         <div class="container">
           <div

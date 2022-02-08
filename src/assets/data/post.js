@@ -1,8 +1,9 @@
 export default [
+  // 추 후, bookshelf 삭제하기
   {
     id: 4,
     front: {
-      title: "Changango",
+      title: "bookshelf",
       date: "2020.09~09(4명)",
       url: "https://unsplash.it/500/503/",
     },
@@ -35,13 +36,14 @@ export default [
     back: {
       title: "Django + Bootstrap + AWS",
       content: "pinterest 클론코딩",
+      // TODO: 추 후, 배포 링크로 만들기
       url: "https://github.com/MinJaehyun/Django-pinterest",
     }
   },
   {
     id: 1,
     front: {
-      title: "안 보기엔 아쉬운 Vue",
+      title: "Vuestagram",
       date: "2021.10~10",
       url: "https://unsplash.it/500/500/",
     },
@@ -54,14 +56,14 @@ export default [
   {
     id: 0,
     front: {
-      title: "Node.js + MongoDB(mongoose)",
-      date: "2021.11~2022.01",
+      title: "mongoDBProject",
+      date: "2021.11 ~ 진행중",
       url: "https://unsplash.it/500/510/",
     },
     back: {
-      title: "Express + MongoDB(mongoose)",
-      content: "게시글, 댓글, 대댓글, JWT, 유저 회원가입 및 로그인 api",
-      url: "https://github.com/MinJaehyun/user",
+      title: "Node.js + Express + mongoose + MongoDB",
+      content: "CI/CD + TDD",
+      url: "https://www.mjh.world",
     }
   },
 ];
