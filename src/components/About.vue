@@ -6,14 +6,19 @@
       <p>
         Back-End 개발자 민재현 입니다.<br />
         Node.JS, MongoDB 를 이용한 개발에 관심이 많습니다.<br />
-        주 언어는 JavaScript, Python 입니다.
+        주 언어는 JavaScript 입니다.
       </p>
-      <button class="btn btn-primary" @click="redirectMyNotion()">
+      <button
+        style="float: right;"
+        class="btn btn-primary"
+        @click="redirectMyNotion()"
+      >
         이력서 보러가기
       </button>
     </div>
   </div>
   <br /><br /><br />
+  <hr />
 </template>
 
 <script>
