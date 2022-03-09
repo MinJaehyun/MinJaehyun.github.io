@@ -1,23 +1,24 @@
 export default [
-  // 추 후, bookshelf 삭제하기
   {
-    id: 4,
+    id: 1,
     front: {
       title: "bookshelf",
-      date: "2020.09~09(4명)",
+      date: "2020.09~09",
+      totalDays: 14,
       url: "https://unsplash.it/500/503/",
     },
     back: {
       title: "Express, MySQL(sequelize), AWS",
-      content: "팀 프로젝트(2주)",
+      content: "팀 프로젝트(4명)",
       url: "https://github.com/MinJaehyun/ChaegJango-server",
     }
   },
   {
-    id: 3,
+    id: 2,
     front: {
       title: "BiBa",
-      date: "2020.10~11(4주)",
+      date: "2020.10~11",
+      totalDays: 30,
       url: "https://unsplash.it/500/502/",
     },
     back: {
@@ -27,10 +28,11 @@ export default [
     }
   },
   {
-    id: 2,
+    id: 3,
     front: {
       title: "weone",
-      date: "2021.07~08(2주)",
+      date: "2021.07~08",
+      totalDays: 14,
       url: "https://unsplash.it/500/501/",
     },
     back: {
@@ -41,29 +43,45 @@ export default [
     }
   },
   {
-    id: 1,
+    id: 4,
     front: {
       title: "Vuestagram",
       date: "2021.10~10",
+      totalDays: 14,
       url: "https://unsplash.it/500/500/",
     },
     back: {
-      title: "Vue + Github",
-      content: "Vue 로 인스타그램 클론코딩",
+      title: "Vue",
+      content: "인스타그램 클론코딩",
       url: "https://minjaehyun.github.io/vuestagram_rev2",
     }
   },
   {
-    id: 0,
+    id: 5,
     front: {
       title: "mongoDBProject",
-      date: "2021.11 ~ 진행중",
+      date: "2021.11 ~ 2022.02",
+      totalDays: 70,
       url: "https://unsplash.it/500/510/",
     },
     back: {
       title: "Node.js + Express + mongoose + MongoDB",
       content: "CI/CD + TDD",
       url: "https://www.mjh.world",
+    }
+  },
+  {
+    id: 6,
+    front: {
+      title: "shopping mall",
+      date: "2022.03 ~ 2022.03",
+      totalDays: 14,
+      url: "https://unsplash.it/500/510/",
+    },
+    back: {
+      title: "Node.js + Express",
+      content: " Vue + Vuex + Nuxt",
+      url: "https://shop-mjh.herokuapp.com/",
     }
   },
 ];

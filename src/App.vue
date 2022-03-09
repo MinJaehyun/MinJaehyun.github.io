@@ -1,35 +1,22 @@
 <template>
-  <!-- 환영 인사 -->
-  <div v-if="방문창 == true">
-    <HelloAll />
+  <div>
+    <!-- 상단 -->
+    <div v-if="$store.state.visit == true"><Hello /></div>
+    <!-- 중단 -->
+    <About />
+    <!-- 하단 -->
+    <Portfolio />
   </div>
-
-  <!-- About -->
-  <About />
-
-  <!-- portfolio -->
-  <Card /> 
-
 </template>
 
 <script>
-import Card from "./components/Card.vue";
-import HelloAll from "./components/HelloAll.vue";
+import Hello from "./components/Hello.vue";
 import About from "./components/About.vue";
+import Portfolio from "./components/Portfolio.vue";
 
 export default {
   name: "App",
-  data() {
-    return {
-      방문창: true,
-    };
-  },
-  components: { Card, HelloAll, About },   
-  mounted() {
-    setTimeout(() => {
-      this.방문창 = false;
-    }, 5000);
-  },
+  components: { Portfolio, Hello, About },
 };
 </script>
 
