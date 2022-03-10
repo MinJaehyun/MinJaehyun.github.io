@@ -11,7 +11,14 @@ const store = createStore({
       state.visit = boolean;
     }
   },
-  actions: {},
+  actions: {
+    // Hello component mounted action
+    HELLO_SET_TIMEOUT({ commit }) {
+      setTimeout(() => {
+        commit("setVisit", false);
+      }, 3000);
+    },
+  },
 })
 
 export default store
