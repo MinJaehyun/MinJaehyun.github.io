@@ -7,10 +7,9 @@
 <script>
 export default {
   name: "Hello",
+  // FIXME: vue 이므로 mounted() 사용하여 처리, nuxt 로 리펙토링할 시, asyncData 또는 fetch 적용한다
   mounted() {
-    setTimeout(() => {
-      this.$store.commit("setVisit", false);
-    }, 6000);
+    this.$store.dispatch("HELLO_SET_TIMEOUT");
   },
 };
 </script>
