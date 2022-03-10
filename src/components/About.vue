@@ -16,9 +16,8 @@
         이력서 보러가기
       </button>
     </div>
+    <br /><br /><br />
   </div>
-  <br /><br /><br />
-  <hr />
 </template>
 
 <script>

@@ -1,11 +1,15 @@
 <template>
   <div>
     <!-- 상단 -->
-    <div v-if="$store.state.visit == true"><Hello /></div>
+    <div v-if="$store.state.visit == true">
+      <Hello />
+    </div>
     <!-- 중단 -->
     <About />
+    <hr />
     <!-- 하단 -->
     <Portfolio />
+    <hr />
   </div>
 </template>
 
