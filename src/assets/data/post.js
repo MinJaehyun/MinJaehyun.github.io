@@ -8,7 +8,7 @@ export default [
   //     url: "https://unsplash.it/500/503/",
   //   },
   //   back: {
-  //     title: "Express, MySQL(sequelize), AWS",
+  //     title: "Node.js, sequelize, Express, MySQL, AWS",
   //     content: "팀 프로젝트(4명)",
   //     url: "https://github.com/MinJaehyun/ChaegJango-server",
   //   }
@@ -22,7 +22,7 @@ export default [
       url: "https://unsplash.it/500/502/",
     },
     back: {
-      title: "Express, MySQL(sequelize), AWS",
+      title: "Node.js, Express, sequelize, MySQL, AWS",
       content: "팀 프로젝트(4명)",
       url: "https://github.com/codestates/Biba-Server",
     }
@@ -30,14 +30,14 @@ export default [
   {
     id: 3,
     front: {
-      title: "weone",
+      title: "pinterest",
       date: "2021.07~08",
       totalDays: 14,
       url: "https://unsplash.it/500/501/",
     },
     back: {
       title: "Django + Bootstrap + AWS",
-      content: "pinterest 클론코딩",
+      content: "",
       // TODO: 추 후, 배포 링크로 만들기
       url: "https://github.com/MinJaehyun/Django-pinterest",
     }
@@ -65,7 +65,7 @@ export default [
       url: "https://unsplash.it/500/510/",
     },
     back: {
-      title: "Node.js + Express + mongoose + MongoDB",
+      title: "Node.js + Express + mongoose + MongoDB + AWS",
       content: "CI/CD + TDD",
       url: "https://www.mjh.world",
     }
