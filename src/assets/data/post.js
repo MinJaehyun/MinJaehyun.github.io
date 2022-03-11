@@ -1,18 +1,18 @@
 export default [
-  {
-    id: 1,
-    front: {
-      title: "bookshelf",
-      date: "2020.09~09",
-      totalDays: 14,
-      url: "https://unsplash.it/500/503/",
-    },
-    back: {
-      title: "Express, MySQL(sequelize), AWS",
-      content: "팀 프로젝트(4명)",
-      url: "https://github.com/MinJaehyun/ChaegJango-server",
-    }
-  },
+  // {
+  //   id: 1,
+  //   front: {
+  //     title: "bookshelf",
+  //     date: "2020.09~09",
+  //     totalDays: 14,
+  //     url: "https://unsplash.it/500/503/",
+  //   },
+  //   back: {
+  //     title: "Express, MySQL(sequelize), AWS",
+  //     content: "팀 프로젝트(4명)",
+  //     url: "https://github.com/MinJaehyun/ChaegJango-server",
+  //   }
+  // },
   {
     id: 2,
     front: {
@@ -42,20 +42,20 @@ export default [
       url: "https://github.com/MinJaehyun/Django-pinterest",
     }
   },
-  {
-    id: 4,
-    front: {
-      title: "Vuestagram",
-      date: "2021.10~10",
-      totalDays: 14,
-      url: "https://unsplash.it/500/500/",
-    },
-    back: {
-      title: "Vue",
-      content: "인스타그램 클론코딩",
-      url: "https://minjaehyun.github.io/vuestagram_rev2",
-    }
-  },
+  // {
+  //   id: 4,
+  //   front: {
+  //     title: "Vuestagram",
+  //     date: "2021.10~10",
+  //     totalDays: 14,
+  //     url: "https://unsplash.it/500/500/",
+  //   },
+  //   back: {
+  //     title: "Vue",
+  //     content: "인스타그램 클론코딩",
+  //     url: "https://minjaehyun.github.io/vuestagram_rev2",
+  //   }
+  // },
   {
     id: 5,
     front: {
