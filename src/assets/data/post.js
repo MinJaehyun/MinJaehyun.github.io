@@ -17,8 +17,7 @@ export default [
     id: 2,
     front: {
       title: "BiBa",
-      date: "2020.10~11",
-      totalDays: 30,
+      date: "2020.10",
       url: "https://unsplash.it/500/502/",
     },
     back: {
@@ -31,8 +30,7 @@ export default [
     id: 3,
     front: {
       title: "pinterest",
-      date: "2021.07~08",
-      totalDays: 14,
+      date: "2021.07",
       url: "https://unsplash.it/500/501/",
     },
     back: {
@@ -42,26 +40,24 @@ export default [
       url: "https://github.com/MinJaehyun/Django-pinterest",
     }
   },
-  // {
-  //   id: 4,
-  //   front: {
-  //     title: "Vuestagram",
-  //     date: "2021.10~10",
-  //     totalDays: 14,
-  //     url: "https://unsplash.it/500/500/",
-  //   },
-  //   back: {
-  //     title: "Vue",
-  //     content: "인스타그램 클론코딩",
-  //     url: "https://minjaehyun.github.io/vuestagram_rev2",
-  //   }
-  // },
+  {
+    id: 4,
+    front: {
+      title: "Vuestagram",
+      date: "2021.10",
+      url: "https://unsplash.it/500/500/",
+    },
+    back: {
+      title: "Vue",
+      content: "인스타그램 클론코딩",
+      url: "https://jovial-goldstine-f5cfd7.netlify.app/",
+    }
+  },
   {
     id: 5,
     front: {
       title: "mongoDBProject",
-      date: "2021.11 ~ 2022.02",
-      totalDays: 70,
+      date: "2021.11",
       url: "https://unsplash.it/500/510/",
     },
     back: {
@@ -74,8 +70,7 @@ export default [
     id: 6,
     front: {
       title: "shopping mall",
-      date: "2022.03 ~ 2022.03",
-      totalDays: 14,
+      date: "2022.03",
       url: "https://unsplash.it/500/510/",
     },
     back: {
