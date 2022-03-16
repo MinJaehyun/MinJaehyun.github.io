@@ -34,8 +34,8 @@ export default [
       url: "https://unsplash.it/500/501/",
     },
     back: {
-      title: "Django + Bootstrap + AWS",
-      content: "",
+      title: "Django, Bootstrap, AWS",
+      content: "pinterest 클론",
       // TODO: 추 후, 배포 링크로 만들기
       url: "https://github.com/MinJaehyun/Django-pinterest",
     }
@@ -48,8 +48,8 @@ export default [
       url: "https://unsplash.it/500/500/",
     },
     back: {
-      title: "Vue",
-      content: "인스타그램 클론코딩",
+      title: "Vue, Vuex",
+      content: "instagram 클론",
       url: "https://jovial-goldstine-f5cfd7.netlify.app/",
     }
   },
@@ -61,8 +61,8 @@ export default [
       url: "https://unsplash.it/500/510/",
     },
     back: {
-      title: "Node.js + Express + mongoose + MongoDB + AWS",
-      content: "CI/CD + TDD",
+      title: "Node.js, Express, mongoose, MongoDB, AWS",
+      content: "CI/CD, TDD",
       url: "https://www.mjh.world",
     }
   },
@@ -74,8 +74,8 @@ export default [
       url: "https://unsplash.it/500/510/",
     },
     back: {
-      title: "Node.js + Express",
-      content: " Vue + Vuex + Nuxt",
+      title: "Node.js, Express",
+      content: " Vue, Vuex, Nuxt",
       url: "https://shop-mjh.herokuapp.com/",
     }
   },
