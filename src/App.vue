@@ -1,13 +1,8 @@
 <template>
   <div>
-    <!-- 상단 -->
-    <div v-if="$store.state.visit == true">
-      <Hello />
-    </div>
-    <!-- 중단 -->
+    <Hello v-if="$store.state.visit == true" />
     <About />
     <hr />
-    <!-- 하단 -->
     <Portfolio />
     <hr />
   </div>
