@@ -3,6 +3,7 @@ import post from './assets/data/post'
 
 const store = createStore({
   state: {
+    postOrigin: [...post],
     post: post,
     visit: true,
   },

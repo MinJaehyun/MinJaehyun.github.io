@@ -3,9 +3,7 @@
     <h1 style="text-align: left;">
       Personal Activities
     </h1>
-    <button style="float: right;" class="btn btn-primary" @click="ascendingNew">
-      최신순 정렬
-    </button>
+    <SortPage />
     <div class="row">
       <!-- v-for -->
       <div
@@ -49,14 +47,12 @@
 </template>
 
 <script>
+import SortPage from "../components/SortPage.vue";
+
 export default {
   name: "Portfolio",
-  methods: {
-    ascendingNew() {
-      this.$store.state.post.sort(function(a, b) {
-        return b.id - a.id;
-      });
-    },
+  components: {
+    SortPage,
   },
 };
 </script>
