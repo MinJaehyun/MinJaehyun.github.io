@@ -17,7 +17,7 @@ const store = createStore({
     HELLO_SET_TIMEOUT({ commit }) {
       setTimeout(() => {
         commit("setVisit", false);
-      }, 3000);
+      }, 5000);
     },
   },
 })

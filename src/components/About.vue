@@ -4,9 +4,8 @@
     <div style="text-align: left">
       <h1 style="text-align: left">About</h1>
       <p>
-        Back-End 개발자 민재현 입니다.<br />
-        Node.JS, MongoDB 를 이용한 개발에 관심이 많습니다.<br />
-        주 언어는 JavaScript 입니다.
+        풀스택을 지향하는 개발자 민재현 입니다.<br />
+        Node.JS, Vue 개발에 관심을 가지고 있습니다.<br />
       </p>
       <button
         style="float: right;"
