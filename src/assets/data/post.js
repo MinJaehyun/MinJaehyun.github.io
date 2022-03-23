@@ -29,7 +29,7 @@ export default [
   {
     id: 3,
     front: {
-      title: "pinterest",
+      title: "Pinterest",
       date: "2021.07",
       url: "https://unsplash.it/500/501/",
     },
@@ -48,7 +48,7 @@ export default [
       url: "https://unsplash.it/500/500/",
     },
     back: {
-      title: "Vue, Vuex",
+      title: "Vue, Vuex, tensorflow.js",
       content: "instagram 클론",
       url: "https://jovial-goldstine-f5cfd7.netlify.app/",
     }
