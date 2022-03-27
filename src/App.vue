@@ -4,7 +4,6 @@
     <About />
     <hr />
     <Portfolio />
-    <hr />
   </div>
 </template>
 
