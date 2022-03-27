@@ -32,6 +32,15 @@
               <p>{{ item.back.content }}</p>
               <br />
               <a
+                v-if="item.back.url.includes('https://github.com/')"
+                :href="item.back.url"
+                target="_blank"
+                style="text-decoration : none; color: white"
+              >
+                깃헙 링크
+              </a>
+              <a
+                v-else
                 :href="item.back.url"
                 target="_blank"
                 style="text-decoration : none; color: white"
