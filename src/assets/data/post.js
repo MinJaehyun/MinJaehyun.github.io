@@ -44,7 +44,7 @@ export default [
     id: 4,
     front: {
       title: "Vuestagram",
-      date: "2021.10",
+      date: "2021.10 ~ 진행 중",
       url: "https://unsplash.it/500/500/",
     },
     back: {
