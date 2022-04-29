@@ -44,12 +44,12 @@ export default [
     id: 4,
     front: {
       title: "Vuestagram",
-      date: "2021.10 ~ 진행 중",
+      date: "2021.10 ~ 2022.04",
       url: "https://unsplash.it/500/500/",
     },
     back: {
-      title: "Vue, Vuex, tensorflow.js",
-      content: "instagram 클론",
+      title: "Vue, Vuex",
+      content: "Node.js, Express, mongoose, MongoDB, tensorflow.js",
       url: "https://jovial-goldstine-f5cfd7.netlify.app/",
     }
   },
