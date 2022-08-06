@@ -3,7 +3,9 @@
 ### 22/08/06
     1. package.json 안에 eslint 설정 내용을 .eslintrc.json 파일로 분리 및 설정
     2. prettier 설정
-
+    3. 불필요한 파일 제거
+        - vue/more0~1.json 
+        
 ### 22/04/29
     1. Update portfolio 
 
