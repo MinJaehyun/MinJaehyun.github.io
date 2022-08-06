@@ -15,5 +15,5 @@ export default {
 </script>
 
 <style>
-@import '../assets/css/helloall.css';
+@import '../assets/css/helloAll.css';
 </style>
