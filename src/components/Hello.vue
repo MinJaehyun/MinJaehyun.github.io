@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  name: "Hello",
+  name: 'Hello',
   // FIXME: vue 이므로 mounted() 사용하여 처리, nuxt 로 리펙토링할 시, asyncData 또는 fetch 적용한다
   mounted() {
-    this.$store.dispatch("HELLO_SET_TIMEOUT");
+    this.$store.dispatch('HELLO_SET_TIMEOUT');
   },
 };
 </script>
 
 <style>
-@import "../assets/css/helloall.css";
+@import '../assets/css/helloall.css';
 </style>

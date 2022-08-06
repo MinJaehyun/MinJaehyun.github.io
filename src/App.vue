@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import Hello from "./components/Hello.vue";
-import About from "./components/About.vue";
-import Portfolio from "./components/Portfolio.vue";
+import Hello from './components/Hello.vue';
+import About from './components/About.vue';
+import Portfolio from './components/Portfolio';
 
 export default {
-  name: "App",
+  name: 'App',
   components: { Portfolio, Hello, About },
 };
 </script>

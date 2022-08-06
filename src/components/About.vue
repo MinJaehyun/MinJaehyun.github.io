@@ -8,7 +8,7 @@
         Node.JS, Vue 개발에 관심을 가지고 있습니다.<br />
       </p>
       <button
-        style="float: right;"
+        style="float: right"
         class="btn btn-primary"
         @click="redirectMyNotion()"
       >
@@ -21,12 +21,12 @@
 
 <script>
 export default {
-  name: "About",
+  name: 'About',
   methods: {
-    redirectMyNotion: function() {
+    redirectMyNotion: function () {
       window.open(
-        "https://www.notion.so/8a839ad1cac74978bfd43ba496c6f165",
-        "_blank"
+        'https://www.notion.so/8a839ad1cac74978bfd43ba496c6f165',
+        '_blank',
       );
     },
   },
@@ -34,5 +34,5 @@ export default {
 </script>
 
 <style>
-@import "../assets/css/card.css";
+@import '../assets/css/card.css';
 </style>

@@ -1,8 +1,6 @@
 <template>
   <div class="wrapper">
-    <h1 style="text-align: left;">
-      Personal Activities
-    </h1>
+    <h1 style="text-align: left">Personal Activities</h1>
     <SortPage />
     <div class="row">
       <!-- v-for -->
@@ -35,7 +33,7 @@
                 v-if="item.back.url.includes('https://github.com/')"
                 :href="item.back.url"
                 target="_blank"
-                style="text-decoration : none; color: white"
+                style="text-decoration: none; color: white"
               >
                 깃헙 링크
               </a>
@@ -43,7 +41,7 @@
                 v-else
                 :href="item.back.url"
                 target="_blank"
-                style="text-decoration : none; color: white"
+                style="text-decoration: none; color: white"
               >
                 배포 링크
               </a>
@@ -56,10 +54,10 @@
 </template>
 
 <script>
-import SortPage from "../components/SortPage.vue";
+import SortPage from './SortPage.vue';
 
 export default {
-  name: "Portfolio",
+  name: 'Portfolio',
   components: {
     SortPage,
   },
@@ -67,5 +65,5 @@ export default {
 </script>
 
 <style>
-@import "../assets/css/card.css";
+@import '../assets/css/card.css';
 </style>
