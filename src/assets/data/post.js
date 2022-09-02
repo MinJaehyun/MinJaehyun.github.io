@@ -44,7 +44,7 @@ export default [
     id: 4,
     front: {
       title: 'Vuestagram',
-      date: '2021.10 ~ 2022.04',
+      date: '2021.10 ~ 진행 중',
       url: 'https://unsplash.it/500/500/',
     },
     back: {
@@ -57,7 +57,7 @@ export default [
     id: 5,
     front: {
       title: 'mongoDBProject',
-      date: '2021.11',
+      date: '2021.11 ~ 진행 중',
       url: 'https://unsplash.it/500/510/',
     },
     back: {
