@@ -3,20 +3,9 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: [
-    'plugin:vue/vue3-essential',
-    '@vue/prettier',
-    // '@vue/typescript/recommended',
-  ],
+  extends: ['plugin:vue/vue3-essential', '@vue/prettier'],
   rules: {
     'no-console': 'off',
-    // 아래 vue/multi-word-component-names 에러 발생하여 설정 off
-    // 'vue/multi-word-component-names': [
-    //   'error',
-    //   {
-    //     ignores: ['default'],
-    //   },
-    // ],
     'prettier/prettier': [
       'error',
       {
