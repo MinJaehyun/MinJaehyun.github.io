@@ -1,12 +1,17 @@
 # Today's Improvements
-    1. [] shopping mall 지울건지?
-    2. [] 포트폴리오 자체인 vue 를 vuex 로 만들기
 
 ### 22/09/08
-    1. [] netlify 배포 서버 에러 수정
-      - 로컬 서버 실행 해도 나타나지 않는 에러이다
-      - netlify Deploy log 에러 수정하기
+    1. [v] netlify 배포 서버 에러 
+      - 로컬 서버 실행 해도 에러가 나타나지 않는다
+      - netlify Deploy log 에러 부분 확인하니 아래와 같다
       - Module not found: Error: Can't resolve '../assets/css/helloAll.css' in '/opt/build/repo/src/components'
+      - 컴포넌트에서 helloAll.css 를 가져오지 못한다.
+      - 이 전에는 대소문자 섞어써도 에러 안 났었다.
+      - 파일명 카멜케이스로 만들었는데, 이를 소문자로만 변경하여 해결
+    
+    2. [v] 정리 및 개선할 점 찾기
+    3. [v] vue 를 vuex 로 변경하기
+    4. [v] shopping mall 주석 처리
       
 ### 22/08/06
     1. package.json 안에 eslint 설정 내용을 .eslintrc.json 파일로 분리 및 설정
