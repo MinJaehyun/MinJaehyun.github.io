@@ -1,13 +1,14 @@
 <template>
   <div class="wrapper">
     <h1 style="text-align: left">Personal Activities</h1>
-    <SortPage />
+    <!-- SortComponent -->
+    <SortComponent />
     <div class="row">
       <!-- v-for -->
       <div
         class="col-lg-4 mb-4"
         ontouchstart="this.classList.toggle('hover');"
-        v-for="item in $store.state.post"
+        v-for="item in post"
         :key="item"
       >
         <div class="container">
@@ -54,12 +55,16 @@
 </template>
 
 <script>
-import SortPage from './SortPage.vue';
+import SortComponent from './Sort.vue';
+import { mapState } from 'vuex';
 
 export default {
   name: 'Portfolio',
   components: {
-    SortPage,
+    SortComponent,
+  },
+  computed: {
+    ...mapState(['post']),
   },
 };
 </script>
