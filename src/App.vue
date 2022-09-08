@@ -2,7 +2,6 @@
   <div>
     <Hello v-if="visit == true" />
     <About />
-    <hr />
     <Portfolio />
   </div>
 </template>
