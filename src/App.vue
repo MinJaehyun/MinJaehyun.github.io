@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hello v-if="$store.state.visit == true" />
+    <Hello v-if="visit == true" />
     <About />
     <hr />
     <Portfolio />
@@ -11,10 +11,14 @@
 import Hello from './components/Hello.vue';
 import About from './components/About.vue';
 import Portfolio from './components/Portfolio';
+import { mapState } from 'vuex';
 
 export default {
   name: 'App',
   components: { Portfolio, Hello, About },
+  computed: {
+    ...mapState(['visit']),
+  },
 };
 </script>
 
