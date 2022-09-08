@@ -66,17 +66,17 @@ export default [
       url: 'https://www.mjh.world',
     },
   },
-  {
-    id: 6,
-    front: {
-      title: 'shopping mall',
-      date: '2022.03',
-      url: 'https://unsplash.it/500/510/',
-    },
-    back: {
-      title: 'Node.js, Express',
-      content: ' Vue, Vuex, Nuxt',
-      url: 'https://shop-mjh.herokuapp.com/',
-    },
-  },
+  // {
+  //   id: 6,
+  //   front: {
+  //     title: 'shopping mall',
+  //     date: '2022.03',
+  //     url: 'https://unsplash.it/500/510/',
+  //   },
+  //   back: {
+  //     title: 'Node.js, Express',
+  //     content: ' Vue, Vuex, Nuxt',
+  //     url: 'https://shop-mjh.herokuapp.com/',
+  //   },
+  // },
 ];
