@@ -18,7 +18,8 @@ export default [
     front: {
       title: 'BiBa',
       date: '2020.10',
-      url: 'https://unsplash.it/500/502/',
+      // 개선 전(github issue image load 활용): ![biba](https://user-images.githubusercontent.com/43669992/189045236-304c7a2a-8a0f-4043-ac31-acc6907710ee.png)
+      url: 'https://user-images.githubusercontent.com/43669992/189045236-304c7a2a-8a0f-4043-ac31-acc6907710ee.png',
     },
     back: {
       title: 'Node.js, Express, sequelize, MySQL, AWS',
@@ -43,9 +44,10 @@ export default [
   {
     id: 4,
     front: {
-      title: 'Vuestagram',
+      title: 'My Note',
       date: '2021.10 ~ 진행 중',
-      url: 'https://unsplash.it/500/500/',
+      // url: 'https://unsplash.it/500/500/',
+      url: 'https://user-images.githubusercontent.com/43669992/189045683-e5882a93-5f08-4b3e-9d87-b5dab371bd9a.jpg',
     },
     back: {
       title: 'Vue, Vuex',
