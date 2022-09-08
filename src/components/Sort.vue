@@ -11,7 +11,7 @@
 import { mapState } from 'vuex';
 
 export default {
-  name: 'SortPage',
+  name: 'Sort',
   computed: {
     ...mapState(['post']),
   },
