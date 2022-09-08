@@ -8,16 +8,23 @@
   </div>
 </template>
 <script>
+import { mapState } from 'vuex';
+
 export default {
   name: 'SortPage',
+  computed: {
+    ...mapState(['post']),
+  },
   methods: {
     ascending() {
-      this.$store.state.post.sort(function (a, b) {
+      this.post.sort(function (a, b) {
         return b.id - a.id;
       });
     },
     rollback() {
-      this.$store.state.post = [...this.$store.state.postOrigin];
+      // 변경 전: this.$store.state.post = [...this.$store.state.postOrigin];
+      // 변경 후: state.post 값을 변경하기위해 mutations 적용
+      this.$store.commit('setPost');
     },
   },
 };

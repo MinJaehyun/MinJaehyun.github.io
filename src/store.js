@@ -11,6 +11,9 @@ const store = createStore({
     setVisit(state, boolean) {
       state.visit = boolean;
     },
+    setPost(state) {
+      state.post = [...state.postOrigin];
+    },
   },
   actions: {
     // Hello component mounted action
