@@ -3,10 +3,8 @@
   <div class="wrapper">
     <div style="text-align: left">
       <h1 style="text-align: left">About</h1>
-      <p>
-        풀스택을 지향하는 개발자 민재현 입니다.<br />
-        Node.JS, Vue 개발에 관심을 가지고 있습니다.<br />
-      </p>
+      <p>풀스택을 지향하는 개발자 민재현 입니다.</p>
+      <p>Node.JS, Vue 개발에 관심을 가지고 있습니다.</p>
       <button
         style="float: right"
         class="btn btn-primary"
@@ -15,7 +13,10 @@
         이력서 보러가기
       </button>
     </div>
-    <br /><br /><br />
+
+    <!-- br, hr 제거 후 style 로 변경 -->
+    <div style="margin-top: 100px"></div>
+    <div style="border: solid 1px gray"></div>
   </div>
 </template>
 
@@ -23,7 +24,7 @@
 export default {
   name: 'About',
   methods: {
-    redirectMyNotion: function () {
+    redirectMyNotion: () => {
       window.open(
         'https://www.notion.so/8a839ad1cac74978bfd43ba496c6f165',
         '_blank',
